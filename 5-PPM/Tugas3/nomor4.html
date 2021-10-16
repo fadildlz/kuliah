@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Kalori Olahraga</title>
+</head>
+<body>
+    <script>
+
+        var olahraga = prompt("Olah Raga Mu Hari ini ( Lari/PushUp/Plank )");
+        var kalori = "";
+        
+        switch(olahraga){
+            case "pushup":
+                kalori = "200";
+                break;
+            case "lari":
+                kalori = "60";
+                break;
+            case "plank":
+                kalori = "5";
+                break;
+            default:
+                document.write("<p>Madd!! anda salah pilih</p>");
+        }
+
+        if(kalori === ""){
+            document.write("<p>Kamu tidak menulis dari 3 Olahraga Tersebut</p>");
+        } else {
+            document.write("<h2>Selamat kamu membakar kalori sebanyak " + kalori + "</h2>");
+        }
+    </script>
+</body>
+</html>

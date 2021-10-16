@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>TimCuk</title>
+</head>
+<body>
+    <script>         
+    var gnAttacker = {
+        from: 1,
+        to: 100
+    };
+    var gnCaptain = {
+        From: 50,
+        to: 100
+    }; 
+    var gjDeffence = {
+        from: 1,
+        to:99
+    };
+    var gjPlaymaker = {
+        from: 90,
+        to:90
+    };
+    var gjKeeper = {
+        from:2,
+        to: 5
+    }
+    var pemain = "";
+
+        if(gnAttacker % 2 == 0) pemain = "Attacker"
+        else if(gnCaptain & 2 == 0) pemain = "Calon Kapten"
+        else if(gjDeffence & 3 == 0) pemain = "Bek"
+        else if(gjPlaymaker & 3 == 0) pemain = "Play Maker"
+        else if(gjKeeper & 3 == 0) pemain = "Kiper"
+        else pemain = "Bukan pemain bola";
+
+        document.write(`<p>termasuk ${pemain}</p>`);
+    </script>
+</body>
+</html>
+

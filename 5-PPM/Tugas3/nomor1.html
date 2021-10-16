@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mafia</title>
+</head>
+<body>
+    <script>
+        var nama = prompt("Nama:");
+        var tabungan = prompt("Tabungan:");
+        var umur = prompt("Umur:");
+        var grade = "";
+
+        if(tabungan >= 10000000) grade = "don"
+        else if(tabungan >= 1000000) grade = "underboss"
+        else if(tabungan <= 1000000) grade = "capo"
+        else if(umur >= 40) grade = "don"
+        else if(umur >= 24 ) grade = "underboss"
+        else if(umur <=18 ) grade = "capo"
+        else if(domisili == "Nevada, New York, Havana") grade = "don"
+        else if(domisili == "Nevada, Manhattan, Newjersey") grade = "underboss"
+        else if(domisili == "California, Detroid, Boston") grade = "capo"
+        else grade = "Bukan";
+
+        document.write(`<p>Nama ${nama} termasuk ${grade}</p>`);
+    </script>
+</body>
+</html>

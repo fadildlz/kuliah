@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>NilaiCu</title>
+</head>
+<body>
+    <script>
+        var nilai = prompt("Inputkan nilai akhir:");
+        var grade = "";
+    
+        if (nilai >= 80){
+            grade = "LULUS"
+        } else if(nilai >= 60) {
+            grade = "DIPERTIMBANGKAN"
+        } else if(nilai >= 70) {
+            grade = "B"
+        } else if(nilai <= 60) {
+            grade = "GAGAL"
+        } 
+        else { 
+            grade = "F";
+        }
+        document.write(`<p>Status hasil ujian anda adalah: ${grade}</p>`);
+    </script>
+</body>
+</html>
+

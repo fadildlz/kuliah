@@ -1,0 +1,53 @@
+## NOMOR 1
+x = (don, underboss, capo)
+
+x0 = don "(>40), (Nevada, New York, Havana), (>10.000.000)"
+X1 = underboss "(25-24), (New Jersey, Manhattan, Nevada), (1.000.000-2.000.000)"
+x2 = capo "(18-24), (california, Detroid, boston), (<1.000.000)"
+
+
+Input
+Nama(string)
+Umur(number)
+Domisili(string)
+Tabungan(number)
+
+Output
+if including value on x0, x1, x2 then he belongs to the mafia 
+category and if he does not belong to that category then he is not a mafia 
+
+var nilai = 10000000;
+var 
+
+## NOMOR 2
+Nilai coding dan Nilai inteview
+
+test coding
+0-100
+>80 lolos
+60-80 dipertimbangkan
+<60 gagal
+
+interview
+A/B = lolos
+other A/B = gagal
+
+ex.
+LOLOS = Selamat Kamu Berhasil 
+GAGAL = Maaf Kamu Belum Berhasil Menjadi Calon Programmer
+
+## NOMOR 3
+Pengecekan posisi dari nomor punggung
+
+Genap = traget attacker
+Genap 50 - 100 = kapten team
+Ganjil = defender
+Ganjil > 90 = playmaker
+Ganjil x 3 dan 5 = keeper
+
+## NOMOR 4
+Menghitung berapa jumlah kalori melakukan aktivitas olahraga tersebut dengan ketentuan setiap orang boleh melakukan aktivitasnya lebih dari 1
+
+lari = 60 
+pushup = 200
+plank = 5
