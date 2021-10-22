@@ -22,15 +22,6 @@ var
 ## NOMOR 2
 Nilai coding dan Nilai inteview
 
-test coding
-0-100
->80 lolos
-60-80 dipertimbangkan
-<60 gagal
-
-interview
-A/B = lolos
-other A/B = gagal
 
 ex.
 LOLOS = Selamat Kamu Berhasil 
@@ -39,11 +30,7 @@ GAGAL = Maaf Kamu Belum Berhasil Menjadi Calon Programmer
 ## NOMOR 3
 Pengecekan posisi dari nomor punggung
 
-Genap = traget attacker
-Genap 50 - 100 = kapten team
-Ganjil = defender
-Ganjil > 90 = playmaker
-Ganjil x 3 dan 5 = keeper
+
 
 ## NOMOR 4
 Menghitung berapa jumlah kalori melakukan aktivitas olahraga tersebut dengan ketentuan setiap orang boleh melakukan aktivitasnya lebih dari 1
